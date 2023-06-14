@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swap</title>
+    <script>
+        function swap()
+        {
+            var a=document.getElementById('1').value;
+            var b=document.getElementById('2').value;
+            document.getElementById('1').value=b;
+            document.getElementById('2').value=a;
+        }
+    </script>
+</head>
+<body>
+    1st String <input id="1"/>
+    2nd String <input id="2"/>
+    <button onclick="swap()">Swap</button>
+</body>
+</html>

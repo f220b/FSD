@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    background-color: aqua;
+    font-style: italic;
+}
+body{
+    background-color: lightblue;
+}
+h3{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+p{
+    color: royalblue;
+    margin-left: 25px;
+}

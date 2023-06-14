@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            function reverseString(str)
+            {
+                str=str.split('');
+                str=str.reverse();
+                str=str.join('');
+                alert(str);
+            }
+        </script>
+    </head>
+    <body>
+        Enter the string: <input id="str"/>
+        <button onclick="reverseString(document.getElementById('str').value)">click me mofo</button>
+    </body>
+</html>

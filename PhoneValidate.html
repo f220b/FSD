@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        function validate() {
+            var phone = document.myform.pn.value;
+            var pattern = /^\d{10}$/;
+            if (pattern.test(phone)) {
+                return true;
+            }
+            else {
+                window.alert("Invalid phone number");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="myform" onsubmit="return validate()">
+        <p>Phone Number: <input type="text" name="pn" /><br /></p>
+        <p><input type="submit" value="Submit" name="submit" /></p>
+    </form>
+</body>
+
+</html>

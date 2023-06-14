@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    $("p").toggleClass("blue");
+                });
+            });
+        </script>
+        <style>
+            .blue{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="blue">This the text.</p>
+        <button>Toggle Class</button>
+    </body>
+</html>

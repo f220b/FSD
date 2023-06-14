@@ -1,0 +1,86 @@
+<html>
+
+<head>
+  <title>Registration Form</title>
+  <style>
+    table {
+      border-collapse: separate;
+      border-spacing: 0 1em;
+    }
+  </style>
+</head>
+
+<body bgcolor="cyan">
+  <h4 style="text-align:center;">Parth Sarthi, CST SPL1, Roll. 51</h4>
+  <h1 style="text-align: center">Entry Form</h1>
+  <form>
+    <fieldset>
+      <legend>Personal Info</legend>
+      <table>
+        <tr>
+          <td>Enter your Name:</td>
+          <td><input type="text" placeholder="Name" name="" /></td>
+        </tr>
+        <tr>
+          <td>Enter your Age:</td>
+          <td><input type="age" placeholder="In years" /></td>
+        </tr>
+
+        <tr>
+          <td>Enter your Address:</td>
+          <td><textarea placeholder="Address"></textarea></td>
+        </tr>
+        <tr>
+          <td>Sex:</td>
+          <td>
+            <input type="radio" name="gender" />Male<br><input type="radio" name="gender" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Nationality:</td>
+          <td>
+            <select>
+              <option>Select Option</option>
+              <option>Indian</option>
+              <option>NRI</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Languages Known:</td>
+          <td>
+            <input type="checkbox" C />C<br />
+            <input type="checkbox" C++ />C++<br />
+            <input type="checkbox" VB />VB<br />
+            <input type="checkbox" JAVA />JAVA<br />
+            <input type="checkbox" ASP />ASP<br />
+            <input type="checkbox" others />Others<br />
+          </td>
+        </tr>
+        <tr>
+          <td>Enter your Password:</td>
+          <td><input type="password" placeholder="Password" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </td>
+        </tr>
+        <tr>
+          <input list="browsers" />
+          <datalist id="browsers">
+            <option value="Internet Explorer"></option>
+            <option value="Chrome"></option>
+            <option value="Safari"></option>
+            <option value="Edge"></option>
+          </datalist>
+        </tr>
+      </table>
+    </fieldset>
+  </form>
+</body>
+
+</html>

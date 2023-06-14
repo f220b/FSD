@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function func() {
+            var a = document.getElementById('inp').value;
+            var b = a.split(' ').map(Number);
+            b.sort(function (a, b) { return a - b });
+            document.getElementById('out').innerHTML = b.toString();
+        }
+    </script>
+</head>
+
+<body>
+    <input type="text" id="inp">
+    <button onclick="func()">Sort</button>
+    <p id="out"></p>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script>
+
+        let currentYear = new Date();
+        let christmasYear = currentYear.getFullYear();
+        if (currentYear.getMonth() == 11 && currentYear.getDate() > 25) {
+            christmasYear = christmasYear + 1;
+        }
+        let mili = 1000 * 60 * 60 * 24;
+        let christmasDate = new Date(christmasYear, 11, 25);
+        alert(Math.ceil(christmasDate.getTime() - currentYear.getTime()) / mili);
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
